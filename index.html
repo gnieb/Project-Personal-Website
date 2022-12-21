@@ -5,25 +5,30 @@
     <title>My Personal Website</title>
 </head>
 <body>
+    
     <h1>Hey, there!</h1>
     <h2>
         Please enjoy this gallery of things to see out west (mostly rocks ).
     </h2>
     <h2 class="states">
-        Utah
-        Colorado
-        Arizona  
+        <ul>
+        <li>Utah</li>
+        <li>Colorado</li>
+        <li>Arizona</li>
+        </ul>  
     </h2>
-    <script src="script.js"></script>
+    
  <div id="bio">
         <p> One week, one hundred degrees, fourwheel drive; and a different city every night;</p>
         <p></p>
     </div>
      
-    <img src="https://www.gannett-cdn.com/-mm-/3c4306e97bc382706b2675c9befecdff7ca74b29/c=0-237-2098-1422/local/-/media/2016/05/27/USATODAY/USATODAY/635999554504046520-View-of-Cliff-Palace-from-above-credit-NPS-Photo.jpg?width=2098&height=1185&fit=crop&format=pjpg&auto=webp" alt="Mesa Verde" title="Mesa Verde National Park"/>
-    <img src="https://ecpe2k7qe53.exactdn.com/wp-content/uploads/2020/05/DFCB698D-9795-4307-AA35-2AA9ACF357C9-scaled.jpeg?strip=all&lossy=1&resize=1200%2C900&ssl=1" alt="Arches" title="Arches National Park"/>
-    <img src="https://npf-prod.imgix.net/uploads/shutterstock_97706066_1.jpg?auto=compress%2Cformat&crop=focalpoint&fit=min&fp-x=0.5&fp-y=0.5&h=900&q=80&w=1600" alt="Grand Canyon" title="Grand Canyon National Park"/>
-    <img src="https://www.mycoloradoparks.com/wp-content/uploads/2019/07/CO-Glenwood-Springs-pool_Ordelheide_2400.jpg" alt="Colorado Hot Spring" title="Colorado Hot Spring"/>
+    <div class="image-container">
+        <img id="Mesa-Verde" class="image" src="https://www.gannett-cdn.com/-mm-/3c4306e97bc382706b2675c9befecdff7ca74b29/c=0-237-2098-1422/local/-/media/2016/05/27/USATODAY/USATODAY/635999554504046520-View-of-Cliff-Palace-from-above-credit-NPS-Photo.jpg?width=2098&height=1185&fit=crop&format=pjpg&auto=webp" alt="Mesa Verde" title="Mesa Verde National Park"/>
+        <img id="Arches" class="image" src="https://ecpe2k7qe53.exactdn.com/wp-content/uploads/2020/05/DFCB698D-9795-4307-AA35-2AA9ACF357C9-scaled.jpeg?strip=all&lossy=1&resize=1200%2C900&ssl=1" alt="Arches" title="Arches National Park"/>
+        <img id="canyon" class="image" src="https://npf-prod.imgix.net/uploads/shutterstock_97706066_1.jpg?auto=compress%2Cformat&crop=focalpoint&fit=min&fp-x=0.5&fp-y=0.5&h=900&q=80&w=1600" alt="Grand Canyon" title="Grand Canyon National Park"/>
+        <img id="colorado" class="image" src="https://www.mycoloradoparks.com/wp-content/uploads/2019/07/CO-Glenwood-Springs-pool_Ordelheide_2400.jpg" alt="Colorado Hot Spring" title="Colorado Hot Spring"/>    
+    </div>
 
 
    
@@ -33,9 +38,10 @@
         <a href="mailto:gnieb1@brockport.edu">E-mail</a>
     </footer>
     <div>
-        <h2 class="hydrate">
-            Stay hydrated, friends!
+        <h2 id="bye">
+            Bye, be safe out there!
         </h2> 
     </div>
+<script src="script.js"></script>
 </body>
 </html>
